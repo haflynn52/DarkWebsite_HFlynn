@@ -1,0 +1,93 @@
+/* header and body setup */
+      html {
+        font-family: 'Stylish', sans-serif;
+        background: url(images/pattern.png);
+      }
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        position: relative;
+      }
+      /* Header styling */
+      header {
+        height: 150px;
+        background-color: #888844;
+      }
+      header img {
+        width: 100px;
+        position: absolute;
+        right: 32.5px;
+        top: 32.5px;
+      }
+      h1 {
+        font-size: 125px;
+        line-height: 140px;
+        margin: 0 0 0 32.5px;
+        font-family: 'Poiret One', cursive;
+      }
+      /* main section and video styling */
+      main {
+        background: #ccc;
+      }
+      article {
+        padding: 20px;
+      }
+      h2 {
+        margin-top: 0;
+        text-align: center;
+      }
+      p {
+        line-height: 2;
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+      }
+      iframe {
+        float: left;
+        margin: 0 20px 20px 0;
+        max-width: 100%;
+      }
+      /* further info links */
+      .further-info {
+        clear: left;
+        padding: 40px 0;
+        background: #888844;
+        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+                    inset 0 -3px 2px rgba(0,0,0,0.5);
+      }
+      .further-info a {
+        width: 30%;
+        padding: 0 1%;
+        display: block;
+        float: left;
+      }
+      .further-info img {
+        max-width: 100%;
+      }
+      .clearfix {
+        clear: both;
+      }
+
+      .closing-image img {
+        display: block;
+        max-width: 100%;
+      }
+      figcaption {
+        text-align: center;
+        font-size: 18px;
+      }
+      table {
+        width: 400px;
+      }
+      th, td {
+        text-align: center;
+      }
+      th, td {
+        padding: 10px;
+      }
+      table, th, td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+      }
